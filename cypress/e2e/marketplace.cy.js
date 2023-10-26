@@ -45,6 +45,7 @@ describe('Marketplace page', () => {
   
   it('should display products on the second page different from the first one', () => {
     marketplacePage.scrollTo(element.lastProduct);
+    marketplacePage.checkSecondPageProducts();
   });
 
 });
